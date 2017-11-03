@@ -1,0 +1,27 @@
+[05-Oct-2017 09:23:22 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 за упит 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM wp_yoast_seo_meta
+			    WHERE object_id IN ( %1$s ) направљен од WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[05-Oct-2017 09:23:26 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 за упит 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM wp_yoast_seo_meta
+			    WHERE object_id IN ( %1$s ) направљен од WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[05-Oct-2017 09:23:36 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 за упит 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM wp_yoast_seo_meta
+			    WHERE object_id IN ( %1$s ) направљен од WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[05-Oct-2017 09:23:41 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 за упит 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM wp_yoast_seo_meta
+			    WHERE object_id IN ( %1$s ) направљен од WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[10-Oct-2017 09:24:44 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%1$s )' at line 3 за упит 
+				SELECT internal_link_count, incoming_link_count, object_id
+				FROM wp_yoast_seo_meta
+			    WHERE object_id IN ( %1$s ) направљен од WP_List_Table->display, WP_List_Table->display_tablenav, WP_Posts_List_Table->extra_tablenav, do_action('manage_posts_extra_tablenav'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Columns->count_objects, WPSEO_Link_Columns->set_count_objects, WPSEO_Link_Column_Count->set, WPSEO_Link_Column_Count->get_results
+[10-Oct-2017 09:42:15 UTC] Грешка Вордпрес базе You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id' at line 2 за упит 
+			SELECT COUNT( id ) AS incoming, target_post_id AS post_id
+			  FROM %2$s
+			 WHERE target_post_id IN( %3$s )
+		  GROUP BY target_post_id направљен од edit_post, wp_update_post, wp_insert_post, do_action('save_post'), WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, WPSEO_Link_Watcher->save_post, WPSEO_Link_Content_Processor->process, WPSEO_Link_Content_Processor->update_incoming_links, WPSEO_Meta_Storage->update_incoming_link_count

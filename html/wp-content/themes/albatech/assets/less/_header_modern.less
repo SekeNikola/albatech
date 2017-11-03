@@ -1,0 +1,39 @@
+.header-v2 {
+	#site-header {
+		#headerbar {
+			padding-bottom: 55px;
+		}
+		#masthead {
+			background: none;
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin-top: -45px;
+			-webkit-transform: translateZ(0px);
+			.box-shadow(none);
+			.transition(background 0.2s ease-in);
+			.wrapper {
+				background: @white;
+				padding: 0 30px;
+				.box-shadow;
+			}
+			&.stick {
+				top: 0 !important;
+				position: fixed !important;
+				margin-top: 0;
+			}
+		}
+	}
+	&.admin-bar {
+		#site-header {
+			#masthead {
+				&.stick {
+					top: 32px !important;
+				}
+			}
+		}
+	}
+	#site-content #page-header {
+		padding-top: 100px;
+	}
+}

@@ -1,0 +1,28 @@
+version: '3.1'
+
+services:
+
+  wordpress:
+    image: wordpress
+    environment:
+      HOST: http://127.0.0.1
+      WORDPRESS_DB_NAME: albatech_alba
+      WORDPRESS_USER: albatech_alba
+      WORDPRESS_DB_PASSWORD: random
+    volumes:
+      - ./html:/var/www/html:rw
+    ports:
+      - 80:80
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: albatech_alba
+      MYSQL_USER: albatech_alba
+      MYSQL_PASSWORD: random
+      MYSQL_ROOT_PASSWORD: random
+    volumes:
+      - ./my.cnf:/etc/mysql/my.cnf
+      - ./sql:/docker-entrypoint-initdb.d:ro
